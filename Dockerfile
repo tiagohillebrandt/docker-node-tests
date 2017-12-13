@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
         subversion
 
 # Install Node.js
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -; \
+RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -; \
     apt-get install -y nodejs
 
 # Upgrade npm to latest version
