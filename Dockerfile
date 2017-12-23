@@ -5,7 +5,9 @@ RUN apt-get update && apt-get install -y \
         git \
         unzip \
         curl \
-        subversion
+        subversion \
+        make \
+        g++
 
 # Install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -; \
